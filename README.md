@@ -3,7 +3,7 @@
 This is a minimal, responsive webpage built with HTML and CSS, documenting a bit of who I am and what I'm becoming.
 
 ### 🌟 Live Site
-[Click here to view the project]([https://<your-username>.github.io/<your-repo-name](https://venkatragav-22.github.io/Get-to-Know-ME/)>/)
+[Click here to view the project](https://venkatragav-22.github.io/Get-to-Know-ME/)
 
 > “Not all who dream are lost.”  
 > — A personal story told through clean code and meaningful design.
