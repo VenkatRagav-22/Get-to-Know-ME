@@ -1,57 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>VenkatRagav</title>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Venkat | Profile Card</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
     />
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(
+            to bottom,
+            rgba(13, 13, 13, 0.8),
+            rgba(13, 13, 13, 0.8)
+          ),
+          url("./1.jpg") no-repeat center center / cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; 
+        height: 100vh;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      .flex-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      .card {
+        background-color: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(6px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 15px;
+        color: white;
+        transition: all 0.3s ease-in-out;
+      }
+
+      .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+      }
+
+      .btn {
+        transition: all 0.3s ease-in-out;
+      }
+
+      .btn:hover {
+        transform: scale(1.05);
+        background-color: #0b5ed7;
+      }
+    </style>
   </head>
 
   <body>
-    <div class="main">
-      <img class="logo" src="./assets/images/logo 1.jpg" alt="logo" />
-      <h1>Not all who <span>dream</span> are lost.</h1>
-      <div class="left card">
-        <img
-          class="title-image1"
-          src="./assets/images/myself.jpeg"
-          alt="My Intro"
-        />
-        <h2 class="card-title">Hey, I’m Venkat Ragav.</h2>
-        <p class="card-text">
-          I’m just a guy learning to trust the journey — figuring things out,
-          falling forward, and growing through every step. I believe our dreams
-          mean something, that nothing is random, and that what’s meant for us
-          is already written. Right now, I’m becoming — learning web
-          development, building confidence, and chasing something I can’t fully
-          name yet… but I know it’s out there..
-        </p>
-      </div>
-
-      <div class="right card">
-        <img
-          class="title-image2"
-          src="./assets/images/with bike.jpeg"
-          alt="Me with my bike"
-        />
-        <h2 class="card-title">We'll get along well if...</h2>
-        <p>
-          You're also someone who finds peace on long rides — somewhere around 7000rpm,
-          everything just feels right. Into games, fitness, music that hits the
-          soul, and creating things that mean something. Learning web dev,
-          leveling up in life, and taking it one day (and one adventure) at a
-          time.
-        </p>
+    <div class="flex-container">
+      <div class="card" style="width: 18rem">
+        <img src="./my.png" class="card-img-top" alt="Venkat's Photo" />
+        <div class="card-body">
+          <h5 class="card-title">Hey!!!</h5>
+          <p class="card-text">Click below to know more about me! 👇</p>
+          <a href="./About Me/About.html" class="btn btn-primary">About Me</a>
+        </div>
       </div>
     </div>
-    <footer>
-      <p>This is just the beginning.</p>
-    </footer>
   </body>
 </html>

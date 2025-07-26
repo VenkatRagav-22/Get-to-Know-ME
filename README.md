@@ -12,16 +12,19 @@ This is a minimal, responsive webpage built with HTML and CSS, documenting a bit
 
 ### 📌 Features
 - Responsive layout (desktop + mobile)
+- Bootstrap card with hover animation
+- Button that links to “Know Me” page
 - Floating image/text sections
 - Sticky quote headline
 - Clean, readable footer
-- Fully built with HTML & CSS (no frameworks)
+- Fully built with HTML, CSS, and Bootstrap
 
 ---
 
 ### 🛠️ Tech Stack
 - HTML5
 - CSS3 (Media Queries, Floats)
+- Bootstrap 5
 - Google Fonts (Poppins)
 
 ---
@@ -29,7 +32,6 @@ This is a minimal, responsive webpage built with HTML and CSS, documenting a bit
 ### 📸 Preview
 
 ![screenshot](https://github.com/VenkatRagav-22/Get-to-Know-ME/blob/main/assets/images/Preview.JPG) 
-
 
 ---
 
