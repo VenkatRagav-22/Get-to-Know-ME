@@ -31,7 +31,7 @@ This is a minimal, responsive webpage built with HTML and CSS, documenting a bit
 
 ### 📸 Preview
 
-![screenshot](https://github.com/VenkatRagav-22/Get-to-Know-ME/blob/main/assets/images/Preview.JPG) 
+![screenshot](https://github.com/VenkatRagav-22/Get-to-Know-ME/blob/main/Assets/Preview.png) 
 
 ---
 
